@@ -1,0 +1,17 @@
+Usage:
+  ./ltranslate --start <target_lang> <audio_source>
+
+Description:
+  LTranslate captures English audio from a desktop audio source,
+  transcribes it in real time, and translates it to the target language.
+
+Arguments:
+  <target_lang>
+      Target language code for translation.
+      Examples: pt, es, fr, de, ja, zh
+
+  <audio_source>
+      Desktop audio source/monitor name.
+      This is usually a PulseAudio or PipeWire monitor device.
+      Example:
+        alsa_output.usb-0c76_PH259-00.iec958-stereo.monitor

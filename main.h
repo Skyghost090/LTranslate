@@ -1,0 +1,10 @@
+std::string result;
+struct stat voice_file_stat;
+std::string transcriptedText;
+char translatedText[1000000];
+char *lang, *arg, *words;
+int forks = 0;
+int subprocess_pid, bar, foo, counter_cicle;
+std::future<void> record_audio;
+std::future<void> audio_play;
+unsigned int *identifier;

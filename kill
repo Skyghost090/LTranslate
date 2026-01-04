@@ -1,0 +1,10 @@
+#!/bin/bash
+
+function main {
+    killall ltranslate
+    if [[ $? == 0 ]]; then
+        main
+    fi
+}
+
+main
